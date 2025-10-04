@@ -54,10 +54,4 @@ Below is the waveform generated from the **ALU simulation (build/alu.vcd)** usin
 
 ![ALU Waveform](docs/wave.png)
 
-## Legacy Artifacts
-For archival reference:
-- [ALU VCD waveform (legacy)](docs/artifacts/legacy/alu.vcd)
-- [Simulation log (legacy)](docs/artifacts/legacy/run.log)
-- [Compiled simv (legacy)](docs/artifacts/legacy/simv)
-
 
