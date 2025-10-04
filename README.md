@@ -29,7 +29,7 @@ This project demonstrates **digital design and verification workflows** used in 
 ## Usage & Results
 ```bash
 # Clone repo
-git clone https://github.com/<your-username>/alu-verification-uvm.git
+git clone https://github.com/tkim683/alu-verification-uvm.git
 cd alu-verification-uvm
 
 # Run simulation
@@ -53,4 +53,11 @@ make waves
 Below is the waveform generated from the **ALU simulation (build/alu.vcd)** using the Python visualization script.
 
 ![ALU Waveform](docs/wave.png)
+
+## Legacy Artifacts
+For archival reference:
+- [ALU VCD waveform (legacy)](docs/artifacts/legacy/alu.vcd)
+- [Simulation log (legacy)](docs/artifacts/legacy/run.log)
+- [Compiled simv (legacy)](docs/artifacts/legacy/simv)
+
 
