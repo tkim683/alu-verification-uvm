@@ -7,7 +7,7 @@ module alu (
   logic [31:0] res; 
   logic c_int, v_int;
 
-  always_comb begin
+  always @* begin
     c_int = 1'b0; 
     v_int = 1'b0; 
     res   = '0;
