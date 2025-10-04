@@ -18,15 +18,15 @@ This project demonstrates **digital design and verification workflows** used in 
   - `Makefile` for build/run/clean targets
   - **Perl** script for parsing simulation logs (PASS/FAIL summary)
   - **TCL** wave configuration for GTKWave/Verdi
-  - Works on **Linux** with open-source tools (Icarus Verilog + GTKWave)
+  - Works on **Linux/macOS** with open-source tools (Icarus Verilog + GTKWave)
 
 ## Tools & Technologies
 - **Languages**: Verilog, SystemVerilog, VHDL, UVM-lite, Perl, TCL, Make
 - **Simulation**: Icarus Verilog (`iverilog`), VVP runtime
 - **Waveforms**: GTKWave (open-source), Verdi (optional)
-- **OS/Infra**: Linux shell, Git/GitHub
+- **OS/Infra**: Linux/macOS shell, Git/GitHub
 
-## Usage
+## Usage & Results
 ```bash
 # Clone repo
 git clone https://github.com/<your-username>/alu-verification-uvm.git
@@ -35,14 +35,16 @@ cd alu-verification-uvm
 # Run simulation
 make sim
 
-# View waveforms
+# View waveforms (optional)
 make waves
 
-## Results
-COVER: OP0_ADD hits=350
-COVER: OP1_SUB hits=325
-COVER: OP2_AND hits=343
-COVER: OP3_OR  hits=342
-COVER: OP4_XOR hits=324
-COVER: OP5_SLT hits=319
-SUMMARY: PASS=1 FAIL=0
+```
+## Simulation Output
+- COVER: OP0_ADD hits=350
+- COVER: OP1_SUB hits=325
+- COVER: OP2_AND hits=343
+- COVER: OP3_OR  hits=342
+- COVER: OP4_XOR hits=324
+- COVER: OP5_SLT hits=319
+- SUMMARY: PASS=1 FAIL=0
+
