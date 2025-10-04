@@ -37,3 +37,12 @@ make sim
 
 # View waveforms
 make waves
+
+## Results
+COVER: OP0_ADD hits=350
+COVER: OP1_SUB hits=325
+COVER: OP2_AND hits=343
+COVER: OP3_OR  hits=342
+COVER: OP4_XOR hits=324
+COVER: OP5_SLT hits=319
+SUMMARY: PASS=1 FAIL=0
