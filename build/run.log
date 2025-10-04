@@ -1,3 +1,0 @@
-VCD info: dumpfile build/alu.vcd opened for output.
-CHECK PASS
-tb/top_tb.sv:26: $finish called at 20025000 (1ps)
