@@ -48,3 +48,9 @@ make waves
 - COVER: OP5_SLT hits=319
 - SUMMARY: PASS=1 FAIL=0
 
+## Waveform Visualization
+
+Below is the waveform generated from the **ALU simulation (build/alu.vcd)** using the Python visualization script.
+
+![ALU Waveform](docs/wave.png)
+
