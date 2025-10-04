@@ -1,1 +1,1 @@
-# alu-verification-uvm
+# ALU Verification Project (Verilog/SystemVerilog/VHDL/UVM)
